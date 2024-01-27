@@ -1,7 +1,7 @@
 import { Box,VStack,Image,Flex,Text } from "@chakra-ui/react"
 import { useState } from "react";
 import Login from "./Login";
-import SignUp from "./SignUp"
+import Signup from "./Signup"
 import GoogleAuth from "./GoogleAuth"
 
 function AuthForm() {
@@ -15,7 +15,7 @@ function AuthForm() {
     <VStack spacing={4}>
 
 
-        {isLogin ? <Login/> : <SignUp/>}
+        {isLogin ? <Login/> : <Signup/>}
 
         <Flex alignItems={"center"} justifyContent={"center"} my={4} gap={1} w={"full"}>
             <Box flex={2} h={"1px"} bg={"gray.400"} />
