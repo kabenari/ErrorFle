@@ -18,7 +18,7 @@ const styles = {
 
 const config = {
 	initialColorMode: "dark",
-	useSystemColorMode: true,
+	useSystemColorMode: false,
 };
 
 // 3. extend the theme
